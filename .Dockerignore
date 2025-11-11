@@ -1,0 +1,31 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter notebooks (if any)
+*.ipynb
+
+# Ignore large or raw data files not needed in container
+model/Bengaluru_House_Data.csv
+model/Data_cleaned.csv
+
+# Ignore training or EDA scripts
+model/eda.py
+model/model_training.py
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore Git files
+.git
+.gitignore
+
+# Ignore LICENSE and S folder (if not needed in container)
+LICENSE
+S/
